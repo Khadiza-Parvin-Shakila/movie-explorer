@@ -333,4 +333,22 @@ body {
   color: white;
   transform: scale(1.05);
 }
+@media (max-width: 480px) {
+  .navbar {
+    padding: 15px 10px;
+  }
+
+  .navbar h2 {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+  }
+
 ```
